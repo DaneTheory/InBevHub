@@ -1,0 +1,31 @@
+{
+  "name": "inbevhub",
+  "version": "1.0.0",
+  "description": "TODO",
+  "license": "MIT",
+  "author": "Branden Dane",
+  "repository": {},
+  "engines": {
+    "node": "12.x",
+    "yarn": ">=1.22.4"
+  },
+  "scripts": {
+    "start": "nps"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "lerna": "latest",
+    "now": "^17.0.4",
+    "nps": "^5.9.12",
+    "nps-utils": "^1.7.0",
+    "oao": "^1.8.0",
+    "pretty-error": "^2.1.1",
+    "ultra-runner": "^2.3.0"
+  },
+  "private": true,
+  "workspaces": [
+    "src/monorepo/modules/*",
+    "src/monorepo/apps/*"
+  ]
+}

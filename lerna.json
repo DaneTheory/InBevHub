@@ -1,0 +1,10 @@
+{
+  "lerna": "latest",
+  "packages": [
+    "src/monorepo/modules/*",
+    "src/monorepo/apps/*"
+  ],
+  "version": "1.0.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
