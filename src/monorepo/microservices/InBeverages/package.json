@@ -1,0 +1,20 @@
+{
+  "name": "@microservices/inbeverages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "now dev"
+  },
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "dependencies": {
+    "micro": "^9.3.4"
+  },
+  "config": {
+    "identity": "InBeverages",
+    "type": "microservice"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "TODO",
   "license": "MIT",
   "author": "Branden Dane",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/DaneTheory/InBevHub"
@@ -52,17 +53,18 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
-    "lerna": "latest",
+    "monorepo-run": "^0.4.2",
     "now": "^17.0.4",
     "nps": "^5.9.12",
     "nps-utils": "^1.7.0",
     "oao": "^1.8.0",
     "pretty-error": "^2.1.1",
-    "ultra-runner": "^2.3.0"
+    "ultra-runner": "^2.3.0",
+    "watchman": "^1.0.0"
   },
-  "private": true,
   "workspaces": [
     "src/monorepo/modules/*",
+    "src/monorepo/microservices/*",
     "src/monorepo/apps/*"
   ]
 }
